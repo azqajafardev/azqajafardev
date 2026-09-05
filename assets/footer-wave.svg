@@ -1,0 +1,35 @@
+<svg width="1100" height="140" viewBox="0 0 1100 140" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="50%" stop-color="#e879f9"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+    <linearGradient id="waveGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4338ca"/>
+      <stop offset="50%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#4338ca"/>
+    </linearGradient>
+  </defs>
+  <rect width="1100" height="140" fill="#0f172a"/>
+
+  <path fill="url(#waveGrad2)" opacity="0.55">
+    <animate attributeName="d" dur="7s" repeatCount="indefinite"
+      values="
+      M0,80 C150,40 300,120 550,80 C800,40 950,120 1100,80 L1100,140 L0,140 Z;
+      M0,90 C150,120 300,40 550,90 C800,130 950,50 1100,90 L1100,140 L0,140 Z;
+      M0,80 C150,40 300,120 550,80 C800,40 950,120 1100,80 L1100,140 L0,140 Z"/>
+  </path>
+
+  <path fill="url(#waveGrad1)" opacity="0.85">
+    <animate attributeName="d" dur="5s" repeatCount="indefinite"
+      values="
+      M0,100 C180,70 320,130 550,100 C780,70 920,130 1100,100 L1100,140 L0,140 Z;
+      M0,110 C180,135 320,75 550,110 C780,145 920,80 1100,110 L1100,140 L0,140 Z;
+      M0,100 C180,70 320,130 550,100 C780,70 920,130 1100,100 L1100,140 L0,140 Z"/>
+  </path>
+
+  <text x="550" y="45" text-anchor="middle" font-family="Segoe UI, Verdana, sans-serif" font-size="16" fill="#e2e8f0" font-weight="600">
+    Thanks for stopping by — let's build something intelligent.
+  </text>
+</svg>
