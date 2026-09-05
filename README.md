@@ -27,7 +27,7 @@
 
 ## 👩‍💻 About Me
 
-I'm **Azqa Jafar**, a Software Engineering graduate (BS, University of Okara — CGPA 3.90/4.00) working as an **AI Developer** at Cyberzeus Software System. I build practical, production-facing AI systems — not just notebooks — spanning **agentic workflows, RAG pipelines, model training, and AI-powered backend services**.
+I'm **Azqa Jafar**, a Software Engineering graduate (BS, CGPA 3.90/4.00) working as an **AI Developer** at Cyberzeus Software System. I build practical, production-facing AI systems — not just notebooks — spanning **agentic workflows, RAG pipelines, model training, and AI-powered backend services**.
 
 I also bring a **graphic design and UI/UX background**, so the products I build tend to be as usable as they are intelligent.
 
