@@ -1,60 +1,113 @@
 <!--
-  GitHub profile README.
-  Push this file + the /assets folder to a repo named exactly "azqajafardev"
-  (i.e. github.com/azqajafardev/azqajafardev) — GitHub then shows it on your profile page.
+  GitHub profile README for azqajafardev.
+  Push README.md, /assets, and .github/workflows/snake.yml (optional) to a repo
+  named exactly "azqajafardev" (github.com/azqajafardev/azqajafardev).
 -->
 
-<img src="./assets/hero-banner.svg" alt="Azqa Jafar" width="100%" />
+<img src="./assets/ai-header.svg" alt="Azqa Jafar, AI Developer — building intelligent systems that retrieve, reason and act" width="100%" />
 
-[in/azqa-jafar](https://linkedin.com/in/azqa-jafar) · [azqajafar@gmail.com](mailto:azqajafar@gmail.com) · [github.com/azqajafardev](https://github.com/azqajafardev)
+## About
 
----
+AI Developer focused on building reliable, retrieval-grounded and agentic applications with Python, FastAPI, LangChain and current LLM tooling. I care less about a model's raw output and more about whether a system can be trusted — where an answer came from, why it was chosen, and what happens when there's no good answer to give.
 
-### About
+- Building practical AI and generative AI applications end to end, not just prompt experiments
+- Exploring AI agents, agentic RAG, and context-aware retrieval pipelines
+- Developing backend APIs in Python and FastAPI to serve models and agents
+- Working with document retrieval, embeddings, and vector databases (ChromaDB, local embeddings)
+- Interested in reliability and explainability — systems that show their evidence instead of just asserting an answer
+- Open to professional AI Developer roles and collaborations
 
-I work as an AI Developer at Cyberzeus Software System in Lahore, where I build LLM-based systems — RAG pipelines, multi-agent workflows, and the backend services that hold them together. Most of my day-to-day is LangChain and LangGraph on the agent side, FastAPI on the backend, and vector databases wherever retrieval needs to be fast and relevant instead of just "search and hope."
+<img src="./assets/ai-divider.svg" alt="" width="100%" />
 
-Before this I finished a BS in Software Engineering at the University of Okara (3.90/4.0), where my final year project was a 3D multi-plane deep learning model for early Alzheimer's detection. That project is what pulled me from general software engineering into AI specifically — training a model that has to be *right*, not just working, changes how you think about the whole pipeline.
+## Current AI Focus
 
-I'm still early in my career, but I've shipped things beyond notebooks: an AI security platform with role-based dashboards and MCP-connected agents, a university assistant that answers real student questions over a knowledge base, and a handful of classification models I've taken from raw data to evaluated results.
+| Area | Where I apply it |
+| :--- | :--- |
+| Agentic RAG | Retrieval pipelines that ground responses in real source documents, not model recall alone |
+| AI Agents | Multi-step workflows with tool use, via LangChain and LangGraph |
+| Context Engineering | Chunking, metadata, and retrieval thresholds that decide what a model is allowed to answer |
+| Vector Search | ChromaDB and local embeddings for semantic retrieval |
+| Document Intelligence | Turning unstructured PDFs/text into queryable, cited knowledge |
+| API Integration | FastAPI services connecting models, agents, and frontends |
+| AI Evaluation | Testing retrieval and response behavior, not just checking that a demo runs |
 
-### What I actually work with
+## Technology Stack
 
-**Agentic AI & LLMs** — LangChain, LangGraph, MCP for tool/agent communication, prompt design, memory and multi-agent workflows.
+**AI & LLM**
 
-**RAG & retrieval** — embeddings, semantic search, FAISS and ChromaDB, building knowledge-grounded QA instead of relying on a model's raw recall.
+![LangChain](https://img.shields.io/badge/LangChain-0F766E?style=flat-square)
+![LangGraph](https://img.shields.io/badge/LangGraph-0F766E?style=flat-square)
+![RAG](https://img.shields.io/badge/Agentic_RAG-0F766E?style=flat-square)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-0F766E?style=flat-square)
+![Vector Databases](https://img.shields.io/badge/Vector_Databases-0F766E?style=flat-square)
+![Embeddings](https://img.shields.io/badge/Local_Embeddings-0F766E?style=flat-square)
+![LLM APIs](https://img.shields.io/badge/LLM_APIs-0F766E?style=flat-square)
 
-**Machine learning** — PyTorch and TensorFlow for training and evaluating models, mostly classification and computer vision so far (CIFAR-10 with EfficientNetB0, the Alzheimer's MPAFNet work).
+**Backend**
 
-**Backend** — FastAPI and Flask services that connect models and agents to something a user can actually touch, PostgreSQL for storage.
+![Python](https://img.shields.io/badge/Python-1D4ED8?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-1D4ED8?style=flat-square&logo=fastapi&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST_APIs-1D4ED8?style=flat-square)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-1D4ED8?style=flat-square)
+![SQLite](https://img.shields.io/badge/SQLite-1D4ED8?style=flat-square&logo=sqlite&logoColor=white)
 
-**Also comfortable with** — Flutter for the rare project that needs a mobile front end, and enough design sense (from an earlier internship) to know when an AI feature's UI is confusing before a user tells me.
+**Application Development**
 
-### Experience
+![Streamlit](https://img.shields.io/badge/Streamlit-6D28D9?style=flat-square&logo=streamlit&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-6D28D9?style=flat-square&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-6D28D9?style=flat-square&logo=dart&logoColor=white)
 
-**AI Developer**, Cyberzeus Software System — *May 2026–present, Lahore*
-Building multi-agent AI workflows and RAG pipelines for client products, including an AI-driven cybersecurity platform (threat analysis, automated scanning and reporting). Integrating MCP so agents can call out to real tools and external APIs, and building the FastAPI/Flask backends that serve all of it.
+**Tools**
 
-**Python Developer (Intern)**, Efaida Technologies — *Oct–Dec 2025, Okara*
-Wrote Python scripts to automate data processing work that was previously manual.
+![Git](https://img.shields.io/badge/Git-334155?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-334155?style=flat-square&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-334155?style=flat-square&logo=visualstudiocode&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-334155?style=flat-square&logo=postman&logoColor=white)
 
-**Graphics Design (Intern)**, Surat Educational Complex — *May–Aug 2025, Okara*
-Worked in Adobe Creative Suite — this is where the UI/UX instincts above come from, not a separate career track.
+<img src="./assets/ai-divider.svg" alt="" width="100%" />
 
-### A few projects
+## Featured Project
 
-- **Enterprise AI Security Platform** — a desktop security tool with multi-agent workflows for vulnerability scanning and automated reporting, RAG over security knowledge, and MCP integration to external tools. Built with Flutter on the frontend and FastAPI/LangGraph underneath.
-- **MPAFNet** — final year project. Custom 3D multi-plane architecture for early Alzheimer's classification from brain imaging, with the preprocessing and transfer-learning work that made it usable on a limited dataset.
-- **CIFAR-10 with EfficientNetB0** — 89.6% accuracy in 5 epochs, fine-tuned with an augmentation pipeline, evaluated on Kaggle GPU.
-- **UniGuide AI** — a RAG-based assistant that answers student questions about admissions, courses, and fees from a real university knowledge base, using LangChain and Streamlit.
+| Project | Stack | Capability |
+| :--- | :--- | :--- |
+| **[EvidenceRAG — Agentic RAG Research Assistant](https://github.com/azqajafardev/agentic-rag-research-assistant)** | Python, FastAPI, React, ChromaDB, local ONNX embeddings, Claude/Groq LLM APIs | Answers questions from uploaded research papers with page-aware citations. The LLM is never called when retrieval finds no supporting evidence, so it can't fabricate a source. Covered by a 35-test suite. |
 
-### Education
+*More projects will be added here as they're published.*
 
-BS Software Engineering, University of Okara — 2022–2026, CGPA 3.90/4.00
-Intermediate (Pre-Engineering), Punjab Group of Colleges — 2020–2022, 950/1100
+## How My AI Systems Think
 
-Certificates: Basics of Python (Uniathena), Python for Beginners (Mindluster), Advanced Graphics Designing (Surat Educational Complex).
+<img src="./assets/agent-workflow.svg" alt="Pipeline: user query flows through intent analysis, retrieval, and a reasoning agent to a verified, cited response" width="100%" />
 
----
+I design AI workflows that combine retrieval, structured reasoning, tool use, and source-aware responses — so an answer is something you can check, not just something you have to trust.
 
-If you're working on something with LLMs, agents, or applied ML and want to talk shop — [azqajafar@gmail.com](mailto:azqajafar@gmail.com).
+<img src="./assets/ai-divider.svg" alt="" width="100%" />
+
+## GitHub Activity
+
+<img src="https://github-readme-stats.vercel.app/api?username=azqajafardev&show_icons=true&hide_border=true&bg_color=0a0e1c&title_color=22d3ee&icon_color=8b5cf6&text_color=c4c9dc" alt="Azqa Jafar's GitHub stats" width="49%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=azqajafardev&layout=compact&hide_border=true&bg_color=0a0e1c&title_color=22d3ee&text_color=c4c9dc" alt="Azqa Jafar's most-used languages" width="42%" />
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=azqajafardev&hide_border=true&background=0a0e1c&ring=22d3ee&fire=8b5cf6&currStreakLabel=22d3ee" alt="Azqa Jafar's GitHub contribution streak" width="49%" />
+
+<!--
+  Contribution snake (optional): .github/workflows/snake.yml generates these on a
+  schedule using the Platane/snk action and publishes them to an "output" branch.
+  Uncomment once that workflow has run at least once.
+
+<img src="https://raw.githubusercontent.com/azqajafardev/azqajafardev/output/github-snake-dark.svg" alt="Contribution snake" width="100%" />
+-->
+
+## Development Philosophy
+
+| Build for real problems | Make answers traceable | Combine reasoning with clean engineering |
+| :--- | :--- | :--- |
+| I'd rather ship something narrow that actually works than a broad demo that doesn't. | An AI answer should point back to where it came from, not just sound confident. | A good agent still needs a well-structured API, tests, and error handling around it. |
+
+<img src="./assets/ai-divider.svg" alt="" width="100%" />
+
+## Let's Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/azqa-jafar)
+[![Email](https://img.shields.io/badge/Email-334155?style=flat-square&logo=gmail&logoColor=white)](mailto:azqajafar@gmail.com)
+
+<img src="./assets/footer-wave.svg" alt="Designed and built by Azqa Jafar" width="100%" />
