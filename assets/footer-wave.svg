@@ -1,0 +1,40 @@
+<svg width="1200" height="150" viewBox="0 0 1200 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Footer: designed and built by Azqa Jafar">
+  <defs>
+    <linearGradient id="wave1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a0e1c"/>
+      <stop offset="50%" stop-color="#151a30"/>
+      <stop offset="100%" stop-color="#0a0e1c"/>
+    </linearGradient>
+    <linearGradient id="waveLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#7c3aed" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+  <style>
+    @media (prefers-reduced-motion: reduce) {
+      * { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; }
+    }
+    .node { animation: nodePulse 4s ease-in-out infinite; }
+    @keyframes nodePulse { 0%,100% { opacity: 0.4; } 50% { opacity: 1; } }
+  </style>
+
+  <rect width="1200" height="150" fill="url(#wave1)"/>
+
+  <path d="M0,60 C150,40 300,80 450,58 C600,36 750,78 900,56 C1000,42 1100,60 1200,50" fill="none" stroke="url(#waveLine)" stroke-width="1.6">
+    <animate attributeName="d" dur="9s" repeatCount="indefinite" values="
+      M0,60 C150,40 300,80 450,58 C600,36 750,78 900,56 C1000,42 1100,60 1200,50;
+      M0,55 C150,72 300,42 450,64 C600,86 750,48 900,66 C1000,74 1100,48 1200,58;
+      M0,60 C150,40 300,80 450,58 C600,36 750,78 900,56 C1000,42 1100,60 1200,50"/>
+  </path>
+
+  <g fill="#22d3ee">
+    <circle class="node" cx="150" cy="40" r="2"/>
+    <circle class="node" cx="450" cy="58" r="2" style="animation-delay:0.8s"/>
+    <circle class="node" cx="750" cy="78" r="2" style="animation-delay:1.6s"/>
+    <circle class="node" cx="1050" cy="52" r="2" style="animation-delay:2.4s"/>
+  </g>
+
+  <text x="600" y="106" text-anchor="middle" font-family="Segoe UI, -apple-system, sans-serif" font-size="15" font-weight="700" fill="#e6e9f5">Designed and built by Azqa Jafar</text>
+  <text x="600" y="128" text-anchor="middle" font-family="Segoe UI, -apple-system, sans-serif" font-size="11.5" fill="#6b7398">AI systems that retrieve, reason and act.</text>
+</svg>

@@ -1,0 +1,130 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Azqa Jafar, AI Developer — building intelligent systems that retrieve, reason and act">
+  <title>Azqa Jafar — AI Developer</title>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05060b"/>
+      <stop offset="55%" stop-color="#0a0e1c"/>
+      <stop offset="100%" stop-color="#05060b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="72%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.16"/>
+      <stop offset="45%" stop-color="#7c3aed" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#05060b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22d3ee" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="nameFill" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f4f6fb"/>
+      <stop offset="100%" stop-color="#c7d2fe"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    @media (prefers-reduced-motion: reduce) {
+      * { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; }
+    }
+    .n { fill: #22d3ee; }
+    .edge { stroke: #2c3554; stroke-width: 1; fill: none; }
+    .pulse-a { animation: pulseOpacity 4.2s ease-in-out infinite; }
+    .pulse-b { animation: pulseOpacity 3.4s ease-in-out infinite 0.6s; }
+    .pulse-c { animation: pulseOpacity 5s ease-in-out infinite 1.2s; }
+    @keyframes pulseOpacity { 0%,100% { opacity: 0.35; } 50% { opacity: 1; } }
+
+    .edge-on { animation: edgeGlow 5s ease-in-out infinite; }
+    @keyframes edgeGlow { 0%,100% { stroke-opacity: 0.25; } 50% { stroke-opacity: 0.75; } }
+
+    .particle { opacity: 0.9; }
+    @media (prefers-reduced-motion: reduce) {
+      .particle { opacity: 0; }
+    }
+
+    .scanbar { animation: sweep 9s linear infinite; }
+    @keyframes sweep { 0% { transform: translateX(-120px); } 100% { transform: translateX(1200px); } }
+
+    .entrance { animation: riseIn 1s ease-out both; }
+    @keyframes riseIn { 0% { opacity: 0; transform: translateY(10px); } 100% { opacity: 1; transform: translateY(0); } }
+
+    .role { opacity: 0; }
+    .role.r1 { opacity: 1; animation: roleCycle 12s ease-in-out infinite; }
+    .role.r2 { animation: roleCycle 12s ease-in-out infinite 3s; }
+    .role.r3 { animation: roleCycle 12s ease-in-out infinite 6s; }
+    .role.r4 { animation: roleCycle 12s ease-in-out infinite 9s; }
+    @keyframes roleCycle { 0% { opacity: 0; } 4% { opacity: 1; } 22% { opacity: 1; } 27% { opacity: 0; } 100% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .role.r1 { opacity: 1; animation: none; }
+      .role.r2, .role.r3, .role.r4 { opacity: 0; animation: none; }
+    }
+
+    .status-dot { animation: dotPulse 2s ease-in-out infinite; }
+    @keyframes dotPulse { 0%,100% { opacity: 0.5; r: 3; } 50% { opacity: 1; r: 4; } }
+  </style>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#glow)"/>
+  <rect class="scanbar" y="0" width="120" height="320" fill="url(#scan)"/>
+
+  <!-- neural network field, right two-thirds -->
+  <g class="edge">
+    <path class="edge-on" d="M 620,70 L 720,40 L 830,80"/>
+    <path class="edge-on" d="M 720,40 L 780,120 L 900,100"/>
+    <path class="edge-on" d="M 640,90 L 760,150 L 900,120 L 1040,175"/>
+    <path class="edge-on" d="M 900,100 L 1010,60 L 1120,100"/>
+    <path class="edge-on" d="M 700,230 L 820,180 L 960,210 L 1090,150"/>
+    <path class="edge-on" d="M 660,160 L 830,110 L 970,165 L 1100,110"/>
+    <path class="edge-on" d="M 780,120 L 830,110"/>
+    <path class="edge-on" d="M 960,210 L 1010,60"/>
+    <path class="edge-on" d="M 1040,175 L 1120,100"/>
+  </g>
+
+  <g class="n">
+    <circle class="pulse-a" cx="620" cy="70" r="3.4"/>
+    <circle class="pulse-b" cx="720" cy="40" r="3"/>
+    <circle class="pulse-c" cx="830" cy="80" r="3.6"/>
+    <circle class="pulse-a" cx="780" cy="120" r="3.2"/>
+    <circle class="pulse-b" cx="900" cy="100" r="4"/>
+    <circle class="pulse-c" cx="1010" cy="60" r="3"/>
+    <circle class="pulse-a" cx="1120" cy="100" r="3.4"/>
+    <circle class="pulse-b" cx="640" cy="90" r="3"/>
+    <circle class="pulse-c" cx="760" cy="150" r="3.2"/>
+    <circle class="pulse-a" cx="900" cy="120" r="3"/>
+    <circle class="pulse-b" cx="1040" cy="175" r="3.6"/>
+    <circle class="pulse-c" cx="700" cy="230" r="3"/>
+    <circle class="pulse-a" cx="820" cy="180" r="3.2"/>
+    <circle class="pulse-b" cx="960" cy="210" r="3"/>
+    <circle class="pulse-c" cx="1090" cy="150" r="3.4"/>
+    <circle class="pulse-a" cx="660" cy="160" r="3"/>
+    <circle class="pulse-b" cx="970" cy="165" r="3.2"/>
+    <circle class="pulse-c" cx="1100" cy="110" r="3"/>
+  </g>
+
+  <!-- data particles travelling the network -->
+  <circle class="particle" r="2.6" fill="#67e8f9">
+    <animateMotion dur="6s" repeatCount="indefinite" path="M 640,90 L 760,150 L 900,120 L 1040,175"/>
+  </circle>
+  <circle class="particle" r="2.6" fill="#a78bfa">
+    <animateMotion dur="7.5s" repeatCount="indefinite" path="M 700,230 L 820,180 L 960,210 L 1090,150"/>
+  </circle>
+  <circle class="particle" r="2.6" fill="#f472b6">
+    <animateMotion dur="5.2s" repeatCount="indefinite" path="M 660,160 L 830,110 L 970,165 L 1100,110"/>
+  </circle>
+
+  <!-- identity block -->
+  <g class="entrance">
+    <text x="70" y="128" font-family="Segoe UI, -apple-system, sans-serif" font-size="50" font-weight="800" fill="url(#nameFill)">Azqa Jafar</text>
+    <text x="70" y="160" font-family="Segoe UI, -apple-system, sans-serif" font-size="18" font-weight="600" letter-spacing="1.5" fill="#22d3ee">AI DEVELOPER</text>
+    <text x="70" y="196" font-family="Segoe UI, -apple-system, sans-serif" font-size="15" fill="#94a1c2">Building intelligent systems that retrieve, reason and act.</text>
+
+    <g font-family="Segoe UI, -apple-system, sans-serif" font-size="13.5" font-weight="600" fill="#c4b5fd">
+      <text class="role r1" x="70" y="226">Agentic RAG Builder</text>
+      <text class="role r2" x="70" y="226">FastAPI Backend Developer</text>
+      <text class="role r3" x="70" y="226">Generative AI Developer</text>
+      <text class="role r4" x="70" y="226">Building AI Systems That Reason and Act</text>
+    </g>
+
+    <circle class="status-dot" cx="76" cy="256" r="3.5" fill="#34d399"/>
+    <text x="90" y="260" font-family="Segoe UI, -apple-system, sans-serif" font-size="12.5" fill="#8b93ab">Open to AI Developer opportunities</text>
+  </g>
+</svg>
